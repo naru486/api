@@ -39,7 +39,11 @@ public class No02_IfElseDemo {
 		
 		System.out.println(k);
 		//System.out.println(i);
+		System.out.println(s);
+		int c=s.length();
+		c=s.length()-s.lastIndexOf(2);
+		System.out.println(c);
 		
-		
+	
 	}
 }
