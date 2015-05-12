@@ -51,23 +51,25 @@ public class No07_Kaup {
 	public String toString() {
 		return 
 				"카우프지수 [키=" + height + ", 몸무게=" + weight + ", 카우프지수="
-				+ idx + "]";
+				+ idx +"]";
 	}
 
 	public static void main(String[] args) {
+		
 		Scanner scanner=new Scanner(System.in);
 		System.out.print("키를 입력하세요 : ");
 		double height=scanner.nextDouble();
 		System.out.print("몸무게를 입력하세요 : ");
 		double weight=scanner.nextDouble();
+		
 		scanner.close();
 		/*
 		 * 코드 완성
 		 * 2줄 남았음.....
 		 * */
 		No07_Kaup no=new No07_Kaup(height,weight);
-	    String print=no.toString()+" "+no.getMsg();
-	    System.out.println(print);
+	
+	    System.out.println(no.toString()+" "+no.getMsg());
 		System.out.println("완료");
 	}
 }
