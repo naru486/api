@@ -20,7 +20,6 @@ public class No05_MultiDimArrDemo {
 		System.out.println("번호\t국어\t영어\t수학\t총점\t평균");
 		System.out.println("=============================================");
 		
-		//int sum;
 		for (int i = 0; i < score.length; i++) {
 			int sum=0;
 			korTotal+=score[i][0];

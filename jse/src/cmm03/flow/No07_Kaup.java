@@ -8,9 +8,10 @@ public class No07_Kaup {
 	int idx;
 	Scanner scanner = new Scanner(System.in);
 	
+	/*
 	No07_Kaup(){
 		this(0,0);
-	}
+	}*/
 	
 	No07_Kaup(double i,double j){
 		this.height=i;

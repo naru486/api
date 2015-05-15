@@ -1,4 +1,4 @@
-package oop01.game;
+package oop01.encapsule;
 
 public class KaupVO {
 	private double height;

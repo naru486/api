@@ -1,4 +1,4 @@
-package oop01.game;
+package oop01.encapsule;
 
 public class NumberMatchService { // getter setter ¾È¾¸ //for¹®
 	NumberMatchVO matchVO = new NumberMatchVO();
@@ -6,6 +6,8 @@ public class NumberMatchService { // getter setter ¾È¾¸ //for¹®
 
 	public int game(int player) {
 		int result = 0;
+		int count=0;
+		
 		matchVO.setCom();
 		matchVO.setPlayer(player);
 		if (matchVO.getPlayer() == matchVO.getCom()) {
