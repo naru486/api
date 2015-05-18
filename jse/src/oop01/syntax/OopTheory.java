@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop01.syntax;
 
 /*
  프로그래밍의 발전 단계
