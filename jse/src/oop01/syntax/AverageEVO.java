@@ -17,10 +17,10 @@ public class AverageEVO {
 	}
 	
 	private double avg(){
-		return tot()/2d;
+		return total()/2d;
 	}
 	
-	private int tot(){
+	private int total(){
 		return kor+eng;
 	}
 	
@@ -33,7 +33,7 @@ public class AverageEVO {
 		return "=== "+name()+"ÀÇ ¼ºÀûÇ¥ ===\n"
 					+"±¹¾î : "+kor+" Á¡\n"
 					+"¿µ¾î : "+eng+" Á¡\n"
-					+"ÃÑÁ¡ : "+tot()+" Á¡\n"
+					+"ÃÑÁ¡ : "+total()+" Á¡\n"
 					+"Æò±Õ : "+avg()+ "Á¡\n";
 	}
 }
