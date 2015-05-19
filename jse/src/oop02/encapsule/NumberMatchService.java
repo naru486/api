@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop02.encapsule;
 
 public class NumberMatchService { // getter setter ¾È¾¸ //for¹®
 	NumberMatchVO matchVO = new NumberMatchVO();

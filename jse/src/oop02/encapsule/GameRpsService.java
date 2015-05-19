@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop02.encapsule;
 
 /*
  Date : 2015.05.15 
