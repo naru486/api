@@ -25,8 +25,15 @@ public class InnerClassAnonyHello {
 				System.out.println("¾È³çÇÏ¼¼¿ä. "+name);
 			}
 		};
+		GreetingService jap= new GreetingService() {
+			@Override
+			public void greet(String name) {
+				System.out.println("ª³ªóªÐªóªÏ~ "+name);
+			}
+		};
 		eng.greet("Tom");
 		kor.greet("Åè");
+		jap.greet("«È-«à");
 	}
 	
 	public static void main(String[] args) {
