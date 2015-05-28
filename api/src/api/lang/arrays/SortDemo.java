@@ -2,6 +2,7 @@ package api.lang.arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Vector;
 
@@ -80,5 +81,12 @@ public class SortDemo {
 		System.out.println("스왑알고리즘을 사용한 오름차순 정렬 : "+list1.toString());
 		System.out.println("Array.sort() 사용한 오름차순 정렬 : "+list2.toString());
 		System.out.println("Array.sort() 사용한 내림차순 정렬 : "+list3.toString());
+		/*
+		StringBuilder str= new StringBuilder(list3.toString());
+		str.reverse();
+		System.out.println(str);
+		*/
+		Collections.reverse(list3);
+		System.out.println("Collection.reverse 이용 : "+ list3.toString());
 	}
 }
