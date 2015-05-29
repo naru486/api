@@ -1,4 +1,4 @@
-package api.util.vector;
+package api.util.vector.answer;
 import java.util.Vector;
 
 public interface GradeService {
